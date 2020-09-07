@@ -1,13 +1,10 @@
 @import "lib";
 @import "null";
 @import "mixins";
-
+@import "fonts";
 // Vars
 
 // Common
-body {
-	font-size: 24px;
-}
-
-.container {
-}
+@import "common";
+// @import "header";
+// @import "footer";

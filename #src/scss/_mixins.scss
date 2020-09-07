@@ -1,5 +1,10 @@
-@mixin fontmain {
+@mixin fontmain($weight) {
 	font-family: '', sans-serif;
+	font-weight: $weight;
+}
+@mixin fontsecondary($weight) {
+	font-family: '', sans-serif;
+	font-weight: $weight;
 }
 @mixin transition {
 	transition: all .3s;
